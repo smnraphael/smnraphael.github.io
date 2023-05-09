@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     color: rgb(5, 15, 25);
+    scroll-behavior: smooth;
 }
 
 html {
@@ -74,6 +75,7 @@ body {
     width: 35%;
     display: flex;
     align-items: center;
+    justify-content: right;
 }
 
 h1 {
@@ -124,12 +126,21 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
+    .navbar {
+        margin-bottom: 25px;
+    }
+
+
     .content {
         width: 85vw;
     }
 
     .name {
         font-size: 36px;
+    }
+
+    .left {
+        padding-right: 50px;
     }
 
     h1 {
@@ -141,8 +152,63 @@ p {
     }
 }
 
+    .mobile {
+        display: none;
+    }
+
 @media screen and (max-width: 768px) {
+    .body {
+        display: inline-block;
+    }
+
+    .container {
+        display: inline-block;
+    }
+
+    .navbar {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .mobile {
+        padding-bottom: 20px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+
     .content {
-        width: 95vw;
+        width: 85vw;
+    }
+
+    .left {
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .link {
+        font-size: 12px;
+    }
+    
+    .skills {
+        width: 55%;
+    }
+
+    .contact{
+        width: 55%;
     }
 }
