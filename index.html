@@ -4,95 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="/ressources/index.css" rel="stylesheet">
+    <link href="ressources/portfolio/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
+    
+    <div class="content">
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="#top" class="navlink logo">Raphaël SIMON</a>
-            <ul class="nav-links">
-                <li><a href="#projects" class="navlink link">Projects</a></li>
-                <li><a href="#resume" class="navlink link">Resume</a></li>
-                <li><a href="#contact" class="navlink link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="container">
-
-
-        <div>
-            <h1 id="projects">Projects</h1>
-
-            <h2><a href="ressources/mixed-messages/index.html" target="_blank" class="out">Mixed Messages</a><span> - HTML/CSS/JavaScript - Codecademy (May, 2023)</span></h2>
-            <h2><a>Portfolio</a><span> (here) - HTML/CSS - Personal project (May, 2023)</span></h2>
-            <h2><a href="/ressources/product-landing-page/index.html" target="_blank" class="out">Product Landing Page</a><span> - HTML/CSS - freeCodeCamp (May, 2023)</span></h2>
-            <h2><a href="/ressources/technical-documentation-page/index.html" target="_blank" class="out">Technical Documentation Page</a><span> - HTML/CSS - freeCodeCamp (May, 2023)</span></h2>
+        <header class="header">
+            <nav class="navbar">
+                <a class="name">Raphaël SIMON</a>
+                <ul class="navlinks">
+                    <li><a href="#projects" class="link">About Me</a></li>
+                    <li><a href="#resume" class="link">Projects</a></li>
+                    <li><a href="#contact" class="link">Skills</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
+                    <li><a href="ressources/portfolio/CV_RaphaelSIMON.pdf" class="link resume" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="container">
+    
+            <div class="aboutme">
+                <div class="left">
+                <h1>About me</h1>
+                <p>Hello! My name is Raphaël, a self-taught front-end developer with a Master's degree in Business Administration from Japan. My journey into web development started with HTML and CSS, and I am currently learning JavaScript and working towards becoming a full-stack developer. With almost a year of experience as an IT Business Analyst in a Japan based company, I had the chance to collaborate with developers and witness firsthand the impact of their work, which motivated me to become a developer myself. I am excited to see where this journey takes me.
+                </p>
+                </div>
+    
+                <div class="right">
+                    <img src="ressources/portfolio/photo.png" alt="photo" class="photo">
+                </div>
+                
+            </div>
+    
+            <div class="projects">
+                <h1>Projects</h1>
+                <p><a href="ressources/mixed-messages/index.html" target="_blank" class="out">Mixed Messages</a><span> - HTML/CSS/JavaScript - Codecademy (May, 2023)</span></p>
+                <p><a href="/ressources/product-landing-page/index.html" target="_blank" class="out">Product Landing Page</a><span> - HTML/CSS - freeCodeCamp (May, 2023)</span></p>
+                <p><a href="/ressources/technical-documentation-page/index.html" target="_blank" class="out">Technical Documentation Page</a><span> - HTML/CSS - freeCodeCamp (May, 2023)</span></p>
+                <p><a href="/ressources/tribute-page/index.html" target="_blank" class="out">Tribute Page</a><span> - HTML/CSS - freeCodeCamp (April, 2023)</span></p>
+                <p><a href="/ressources/survey-form/index.html" target="_blank" class="out">Survey Form</a><span> - HTML/CSS - freeCodeCamp (April, 2023)</span></p>
+                <p><a href="/ressources/the-tea-cozy/index.html" target="_blank" class="out">The Tea Cozy</a><span> - HTML/CSS - Codecademy (April, 2023)</span></p>
+                <p><a href="/ressources/raphael-in-japan/index.html" target="_blank" class="out">Raphaël in Japan</a><span> - HTML/CSS - Personal project (April, 2023)</span></p>
+            </div>
             
-            <h2><a href="/ressources/tribute-page/index.html" target="_blank" class="out">Tribute Page</a><span> - HTML/CSS - freeCodeCamp (April, 2023)</span></h2>
-            <h2><a href="/ressources/survey-form/index.html" target="_blank" class="out">Survey Form</a><span> - HTML/CSS - freeCodeCamp (April, 2023)</span></h2>
-            <h2><a href="/ressources/the-tea-cozy/index.html" target="_blank" class="out">The Tea Cozy</a><span> - HTML/CSS - Codecademy (April, 2023)</span></h2>
-            <h2><a href="/ressources/raphael-in-japan/index.html" target="_blank" class="out">Raphaël in Japan</a><span> - HTML/CSS - Personal project (April, 2023)</span></h2>
-
+            <div class="division">
+                <div class="skills">
+                    <h1>Skills</h1>
+                    <img src="ressources/portfolio/icons/html5.svg" alt="html5" class="icon">
+                    <img src="ressources/portfolio/icons/css3.svg" alt="css3" class="icon">
+                    <img src="ressources/portfolio/icons/js.svg" alt="javascript" class="icon">
+                    <img src="ressources/portfolio/icons/git.svg" alt="git" class="icon">
+                    <img src="ressources/portfolio/icons/github.svg" alt="github" class="icon">
+                    <img src="ressources/portfolio/icons/figma.svg" alt="figma" class="icon">
+                </div>
+        
+                <div class="contact">
+                    <h1>Contact</h1>
+                    <a href="https://www.linkedin.com/in/simonraphael/"  target="_blank"><img src="ressources/portfolio/icons/linkedin.svg" alt="linkedin" class="icon"></a>
+                    <a href="https://github.com/smnraphael" target="_blank"><img src="ressources/portfolio/icons/github.svg" alt="github" class="icon"></a>
+                    <a href ="mailto: simonraphael@hotmail.fr"><img src="ressources/portfolio/icons/envelope-solid.svg" alt="email" class="icon"></a>
+                </div>
+            </div>
+            
         </div>
+        
+    </div>
 
-        <div class="resume" id="resume">
-            <h1 id="resume">Resume</h1>
-
-                <h2>WORK EXPERIENCE</h2>
-
-                <h3>IT Business Analyst - Kenja K.K. (Tokyo, JP)</h3>
-                <h4>September 2022 - Present</h4>
-                <h6>- Collected and analyzed clients needs to translate them into digital/blockchain solutions through requirements gathering, BPMN process flows and Figma mock-ups development</br>- Handled the testing phase with development of test cases documentation and QA testing with constant communication between client and developers</h6>
-
-                <h3>Reporting / Project Management Officer - La Française (Paris, FR)</h3>
-                <h4>January 2020 - August 2020</h4>
-                <h6>- Produced financial communication materials for “La Française Real Estate Managers” (quarter and annual reports of 21 real estate investment funds, around 100,000 copies)</br>- Coordinated teams and set deadlines (50+ people including fund managers, asset managers, accountants, lawyers)</br>- Production of weekly financial reports, financial analysis of potential institutional tenants, participation in budgeting and creation of cash-flow</h6>
-
-                <h2>EDUCATION</h2>
-
-                <h3>Nagoya University of Commerce & Business (Nagoya, JP)</h3>
-                <h4>September 2021 - September 2022</h4>
-                <h5>Master's Degree: MSc of Management & Business Administration</h5>
-                <h6>- Dual degree with NEOMA Business School</br>- 1st MBA program in Japan</br>- Thesis: "Coinbase Global, Inc. 2021: From Niche to Mainstream?", writing of a case and teaching notes about Coinbase company and its strategy within the blockchain / cryptocurrency industry</h6>
-
-                <h3>NEOMA Business School (Reims, FR)</h3>
-                <h4>September 2019 - September 2022</h4>
-                <h5>Master's Degree: Master in Management</h5>
-                <h6>- Dual degree with Nagoya University of Commerce & Business</h6>
-
-                <h3>Shanghai University of Finance & Economics (Shanghai, CN)</h3>
-                <h4>January 2021 - June 2021</h4>
-                <h5>Exchange Program</h5>
-
-                <h3>Southern Brittany University (Vannes, FR)</h3>
-                <h4>September 2014 - June 2019</h4>
-                <h5>Bachelor's Degree: Private Law</h5>
-
-                <h2>SKILLS</h2>
-
-                <h6>HTML, CSS, Webflow, GitHub, Git, Postman, Figma</br>Business requirements, Technical requirements, BPMN process flows</br>Problem solving, Critical thinking, Business communication, Time management</h6>
-
-                <h2>LANGUAGES</h2>
-
-                <h6>French: native</br>English: fluent</br>Japanese: JLPT N4</h6>
-        </div>
-
-        <div class="contact" id="contact">
-            <h1 id="contact">Contact</h1>
-
-            <h2><a href="tel:+33688226183" class="out">Telephone</a></h2>
-            <h2><a href ="mailto: simonraphael@hotmail.fr" class="out">E-mail</a></h2>
-            <h2><a href="https://www.linkedin.com/in/simonraphael/"  target="_blank" class="out">LinkedIn</a></h2>
-            <h2 class="last"><a href="https://github.com/smnraphael"  target="_blank" class="out">GitHub</a></h2>
-        </div>
-                    
-
-    </main>
+    
 
 </body>
 </html>
