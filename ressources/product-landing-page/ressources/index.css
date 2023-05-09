@@ -1,0 +1,170 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/126/494/520/apple-music-colors-blur-5k-wallpaper-thumb.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding-top: 10vh;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+.btn:after {    
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform .25s ease-out;
+  }
+
+.btn:hover::after { 
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.button {
+    background-image: linear-gradient(to right, rgba(220, 100, 150, 0.5), rgba(160, 130, 210, 0.7));
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+    transition: box-shadow .2s ease-out;
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    margin-top: 50px;
+    height: 100%;
+    max-width: 100%;
+}
+
+.left {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 9vw;
+}
+
+.text {
+    width: 100%;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.butn {
+    display: flex;
+}
+
+.btnleft {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+    transition: box-shadow .3s;
+}
+
+.btnright {
+    padding: 18px 75px;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-left: 10px;
+    box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.1);
+    transition: box-shadow .3s;
+}
+
+.btnleft:hover {
+    box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+    transition: box-shadow .2s ease-out;
+}
+
+.btnright:hover {
+    box-shadow: 0 0 15px rgba(100, 100, 100, 0.5);
+    transition: box-shadow .2s ease-out;
+}
+
+.right {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nyan {
+    max-width: 50%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.5);
+    transition: box-shadow .5s;
+}
+
+.nyan:hover {
+    box-shadow: 10px 10px 25px rgba(100, 100, 100, 0.9);
+    transition: box-shadow .3s ease-out;
+}

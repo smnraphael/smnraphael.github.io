@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    max-width: 100%;
+}
+
+html,
+body {
+    background: linear-gradient(90deg, #F1E9DB, #c6bfaf);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    background-color: #716A5C;
+    color: rgb(5, 5, 5);
+    font-family: 'Cookie';
+    font-size: 50px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #3e3a32;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 30px 30px 30px;
+    max-width: 100%;
+}
+
+a {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    transition: box-shadow .3s, margin .3s;
+}
+
+a:hover {
+    box-shadow: 7px 7px 7px #A39B8B;
+    margin-top: -5px;
+    margin-left: -5px;
+    transition: box-shadow .3s, margin .3s;
+}
+
+.a {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/1.png');
+}
+
+.b {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/2.png');
+}
+
+.c {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/3.png');
+}
+
+.d {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/4.png');
+}
+
+.e {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/5.png');
+}
+
+.f {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/6.png');
+}
+
+.g {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/7.png');
+}
+
+.h {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/8.png');
+}
+
+.i {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/9.png');
+}
+
+.j {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/10.png');
+}
+
+.k {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/11.png');
+}
+
+.l {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/12.png');
+}
+
+.m {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/13.png');
+}
+
+.n {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/14.png');
+}
+
+.o {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/15.png');
+}
+
+.p {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/16.png');
+}
+
+.q {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/17.png');
+}
+
+.r {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/18.png');
+}
+
+.s {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/19.png');
+}
+
+.t {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/20.png');
+}
+
+.u {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/21.png');
+}
+
+.v {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/22.png');
+}
+
+.w {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/23.png');
+}
+
+.x {
+    background-image: url('/ressources/raphael-in-japan/ressources/img/24.png');
+}
+
+footer {
+    background-color: #716A5C;
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}

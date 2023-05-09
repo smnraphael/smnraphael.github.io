@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    max-width: 100%;
+}
+
+html,
+body {
+    background: linear-gradient(90deg, #F1E9DB, #c6bfaf);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    background-color: #716A5C;
+    color: rgb(5, 5, 5);
+    font-family: 'Cookie';
+    font-size: 50px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+div {
+    margin: 90px 80px 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3e3a32;
+}
+
+a:visited {
+    color: #3e3a32;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    align-content: justify;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 500px;
+    padding: 20px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 4%;
+}
+
+.txt {
+    text-align: justify;
+    width: 700px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #716A5C;
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}

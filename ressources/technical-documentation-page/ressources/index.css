@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    border-right: 2px solid grey;
+    height: 100%;
+    width: 300px;
+}
+
+header {
+    font-size: 32px;
+    padding: 10px;
+}
+
+main {
+    position: absolute;
+    left: 350px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.nav-link {
+    list-style: none;
+    margin-left: 0;
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 32px;
+    margin: 20px -10px;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 20px;;
+}
+
+li {
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+.second {
+    margin-left: 75px;
+}
+
+code {
+    background-color: whitesmoke;
+    padding: 10px;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        display: inline-block;
+    }
+
+    nav {
+        width: 100%;
+        height: 250px;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 999;
+        border-bottom: 1px solid grey;
+    }
+
+    .nav-link {
+        border: none;
+        display: inline-block;
+    }
+
+    main {
+        position: relative;
+        top: 250px;
+        left: 50px;
+        padding: 0;
+        width: 100%;
+    }
+
+    div {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 706px) {
+    body {
+        display: inline-block;
+    }
+
+    nav {
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 999;
+        border-bottom: 1px solid grey;
+    }
+
+    .nav-link {
+        border: none;
+        display: inline-block;
+    }
+
+    main {
+        position: relative;
+        top: 300px;
+        left: 40px;
+        padding: 0;
+        width: 100%;
+    }
+
+    div {
+        width: 90vw;
+    }
+}
