@@ -165,11 +165,11 @@ p {
 
     .container {
         display: inline-block;
+        margin-top: 75px;
     }
 
     .navbar {
         justify-content: center;
-        margin-bottom: 10px;
     }
 
     .name {
