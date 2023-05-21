@@ -114,13 +114,9 @@ p {
     border-radius: 20px;
 }
 
-.skills, .contact {
-    padding-top: 35px;
-}
-
 .icon {
     height: 30px;
-    padding-left: 5px;
+    margin: 10px;
     padding-right: 25px;
 }
 
@@ -179,10 +175,11 @@ p {
 
     .mobile {
         padding-bottom: 20px;
+        display: block;
     }
 
-    .mobile {
-        display: block;
+    .photo {
+        padding-left: 5px;
     }
 
     .left {
@@ -200,18 +197,32 @@ p {
     .left {
         padding-right: 25px;
     }
+
+    .division {
+        display: inline-block;
+    }
+
+    .skills {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    
+    .contact {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .icon {
+        padding-bottom: 0;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
     .link {
-        font-size: 12px;
-    }
-    
-    .skills {
-        width: 55%;
-    }
-
-    .contact{
-        width: 55%;
+        font-size: 14px;
+        padding: 0 5px;
     }
 }
