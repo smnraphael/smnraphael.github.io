@@ -109,7 +109,6 @@ p {
     width: 35%;
 }
 
-
 .photo {
     width: 90%;
     border-radius: 20px;
@@ -125,11 +124,14 @@ p {
     padding-right: 25px;
 }
 
+.mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .navbar {
         margin-bottom: 25px;
     }
-
 
     .content {
         width: 85vw;
@@ -150,11 +152,8 @@ p {
     .aboutme, .projects, .skills, .contact {
         padding-bottom: 20px;
     }
-}
 
-    .mobile {
-        display: none;
-    }
+}
 
 @media screen and (max-width: 768px) {
     .body {
