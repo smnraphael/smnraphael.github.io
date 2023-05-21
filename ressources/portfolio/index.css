@@ -28,8 +28,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
-    padding: 30px 0 30px 0;
+    padding: 25px 0 25px 0;
+    position: fixed;
+    width: 70vw;
+    top: 0;
+    background-color: rgba(250, 240, 230, .9);
 }
 
 .navlinks {
@@ -56,6 +59,10 @@ body {
 
 .resume {
     font-weight: bold;
+}
+
+.container {
+    margin-top: 106px;
 }
 
 .aboutme, .projects, .skills, .contact {
@@ -126,7 +133,7 @@ p {
 
 @media screen and (max-width: 1024px) {
     .navbar {
-        margin-bottom: 25px;
+        width: 85vw;
     }
 
     .content {
